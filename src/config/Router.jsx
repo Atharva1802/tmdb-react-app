@@ -1,13 +1,13 @@
-import {Route, Switch} from 'react-router-dom'
+import {Routes, Route } from 'react-router-dom'
 
 import Home from '../pages/Home'
 import Catalog from '../pages/Catalog'
 import Details from '../pages/Details'
 
 
-function Routes() {
+function Router() {
   return (
-    <Switch>
+    <Routes>
             <Route
                 path='/:category/search/:keyword'
                 component={Catalog}
@@ -22,11 +22,10 @@ function Routes() {
             />
             <Route
                 path='/'
-                exact
-                component={Home}
+                element={<Home/>}
             />
-        </Switch>
+        </Routes>
     );
 }
 
-export default Routes;
+export default Router;
