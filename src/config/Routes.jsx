@@ -8,23 +8,25 @@ import Details from '../pages/Details'
 function Routes() {
   return (
     <Switch>
-          <Route
-              path='/:category/search:/keyword'
-              component={Catalog}
-          />
-          <Route
-              path='/:category/search:/keyword'
-              component={Catalog}
-          />
-          <Route
-              path='/:category/search:/keyword'
-              component={Catalog}
-          />
-          <Route
-              path='/:category/search:/keyword'
-              component={Catalog}
-          />
-    </Switch>
-  )
+            <Route
+                path='/:category/search/:keyword'
+                component={Catalog}
+            />
+            <Route
+                path='/:category/:id'
+                component={Details}
+            />
+            <Route
+                path='/:category'
+                component={Catalog}
+            />
+            <Route
+                path='/'
+                exact
+                component={Home}
+            />
+        </Switch>
+    );
 }
-export default Routes
+
+export default Routes;
