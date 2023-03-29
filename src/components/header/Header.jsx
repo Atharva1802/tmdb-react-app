@@ -1,5 +1,10 @@
+import React, { useRef, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+
+
 import './header.scss'
-import logo from '../../assets/tmdb_logo.svj' 
+import logo from '../../assets/tmdb.png' 
+
 
 
 const headerNav = [
