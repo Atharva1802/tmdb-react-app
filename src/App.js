@@ -13,7 +13,9 @@ import Routes from './config/Router';
 function App() {
   return (
     <div>
-      App   
+      App
+      <Header />
+      
     </div>
   );
 }
