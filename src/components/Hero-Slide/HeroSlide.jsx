@@ -27,3 +27,5 @@ const HeroSlide = () => {
         </div>
     )
 }
+
+export default HeroSlide;
