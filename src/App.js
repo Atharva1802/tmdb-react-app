@@ -14,8 +14,8 @@ function App() {
       <BrowserRouter>
             <>
                 <Header />
-                <Routes />
-                <Footer />
+                {/* <Routes /> */}
+                {/* <Footer /> */}
             </>
         </BrowserRouter>
     );
