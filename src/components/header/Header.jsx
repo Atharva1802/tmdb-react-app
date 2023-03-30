@@ -47,7 +47,9 @@ const Header = () => {
         <div ref={headerRef} className="header">
             <div className="header__wrap container">
                 <div className="logo">
+                    <a href='https://www.themoviedb.org/'>
                     <img src={logo} alt="" />
+                    </a>
                     <Link to="/">TMDB-Movies</Link>
                 </div>
                 <ul className="header__nav">
