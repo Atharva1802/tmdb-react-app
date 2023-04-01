@@ -12,10 +12,7 @@ const Home = () => {
             <div className="container">
                 <div className="section mb-3">
                     <div className="section__header mb-2">
-                        <h2>Trending Movies</h2>
-                        <Link to="/movie">
-                            <OutlineButton className="small">View more</OutlineButton>
-                        </Link>
+                        
                     </div>
 
                 </div>
