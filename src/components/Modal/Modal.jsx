@@ -46,4 +46,4 @@ ModalContent.propTypes = {
     onClose: PropTypes.func
 }
 
-export default Modal; 
+export default Modal;
