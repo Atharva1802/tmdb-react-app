@@ -2,7 +2,7 @@
 
 .logo {
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 300;
 
     @include flex(center, unset);
 
@@ -50,7 +50,7 @@
 
         li {
             padding: 5px 0;
-            font-weight: 700;
+            font-weight: 300;
             position: relative;
             font-size: 1.5rem;
 
