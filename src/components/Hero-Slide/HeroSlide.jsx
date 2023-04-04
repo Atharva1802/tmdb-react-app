@@ -10,7 +10,7 @@ import tmdbApi, { category, movieType } from '../../api/tmdbApi';
 import apiConfig from '../../api/apiConfig';
 
 import './hero-slide.scss';
-import { useNavigate } from 'react-router';
+import { useHistory } from 'react-router';
 
 const HeroSlide = () => {
 
@@ -60,7 +60,7 @@ const HeroSlide = () => {
 
 const HeroSlideItem = props => {
 
-    const navigate = useNavigate();
+    let history = useHistory();
 
     const item = props.item;
 
@@ -91,7 +91,7 @@ const HeroSlideItem = props => {
                     <h2 className="title">{item.title}</h2>
                     <div className="overview">{item.overview}</div>
                     <div className="btns">
-                        <Button onClick={() => navigate('/movie/' + item.id)}>
+                        <Button onClick={() => history.push('/movie/' + item.id)}>
                             Watch now
                         </Button>
                         <OutlineButton onClick={setModalActive}>
