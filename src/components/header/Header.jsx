@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 import './header.scss';
 
-import logo from '../../assets/tmovie.png';
+import logo from '../../assets/tmdb.png';
 
 const headerNav = [
     {
@@ -46,8 +46,10 @@ const Header = () => {
         <div ref={headerRef} className="header">
             <div className="header__wrap container">
                 <div className="logo">
+                    <a href="https://www.themoviedb.org/">
                     <img src={logo} alt="" />
-                    <Link to="/">tMovies</Link>
+                    <Link to="/">TMDB-Movie</Link>
+                    </a>
                 </div>
                 <ul className="header__nav">
                     {
