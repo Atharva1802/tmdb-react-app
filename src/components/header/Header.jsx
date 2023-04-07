@@ -47,8 +47,8 @@ const Header = () => {
             <div className="header__wrap container">
                 <div className="logo">
                     <a href="https://www.themoviedb.org">
+                    <Link to="/">powered by</Link>
                     <img src={logo} alt="" />
-                    <Link to="/">inspired by</Link>
                     </a>
                 </div>
                 <ul className="header__nav">

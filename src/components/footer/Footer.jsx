@@ -4,7 +4,7 @@ import './footer.scss';
 
 import { Link } from 'react-router-dom';
 
-import bg from '../../assets/footer-bg.jpg';
+import bg from '../../assets/netflix-3.jpg';
 import logo from '../../assets/logosvg.png';
 
 const Footer = () => {
@@ -14,8 +14,8 @@ const Footer = () => {
                 <div className="footer__content__logo">
                     <div className="logo">
                         <a href="https://www.themoviedb.org">
+                        <Link to="/">powered by</Link>
                         <img src={logo} alt="" />
-                        <Link to="/">TMDB-Movie</Link>
                         </a>
                     </div>
                 </div>

@@ -1,20 +1,19 @@
 @use "../../scss/" as *;
 
 .logo {
+    img {
+            margin-left: 10px;
+            width: 80px;
+    
+            @include mobile {
+                width: 30px;
+                margin-left: 10px;
+            }
+        }
     font-size: 2.5  rem;
-    font-weight: 600;
+    font-weight: 300;
 
     @include flex(center, unset);
-
-    img {
-        margin-right: 10px;
-        width: 60px;
-
-        @include mobile {
-            width: 30px;
-            margin-right: 0;
-        }
-    }
 }
 
 .header {
