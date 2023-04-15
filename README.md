@@ -40,4 +40,15 @@ TMDB Movie App was inspired by [insert name of inspiration] and was built with t
 - TMDb API documentation
 - SCSS documentation
 
-## Screenshots
+## Screenshots![Screenshot (40)](https://user-images.githubusercontent.com/72330077/232193722-194fc7df-d50f-4121-acab-7a8e64ee58b6.png)
+![Screenshot (41)](http
+
+https://user-images.githubusercontent.com/72330077/232193746-e53185ae-6244-4bc8-8b62-48cd907ab8dc.mp4
+
+
+https://user-images.githubusercontent.com/72330077/232193761-bc8d66ec-0cf8-46a9-b472-31d02021fe43.mp4
+
+
+s://user-images.githubusercontent.com/72330077/232193728-c9ac537d-e227-4ca0-9274-98c7ef33c83a.png)
+![Screenshot (42)](https://user-images.githubusercontent.com/72330077/232193738-27ce55fc-72ff-43d5-8aa7-59f71b66c34c.png)
+
